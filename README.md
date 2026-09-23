@@ -3,6 +3,10 @@
 Progress of all three members through the Striver SDE Sheet, updated
 automatically from each member's repository every time new solutions land.
 
+> **Live tracker:** the full per-problem board is
+> [generated/board.md](generated/board.md).
+> The same data is mirrored into the org's "Striver 180 Tracker" project.
+
 ## Overall Progress
 
 **TEAM:** 0 / 537 completed-signals (0.0%)
@@ -75,4 +79,4 @@ _None._
 
 ---
 
-_Generated at 2026-09-23T16:38:36Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-09-23T16:46:32Z (UTC) by `scripts/generate_dashboard.py`._

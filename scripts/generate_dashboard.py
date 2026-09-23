@@ -430,6 +430,10 @@ def generate_readme(dash: dict, cfg: dict, members: list[dict], generated_at: st
 Progress of all three members through the Striver SDE Sheet, updated
 automatically from each member's repository every time new solutions land.
 
+> **Live tracker:** the full per-problem board is
+> [generated/board.md](generated/board.md).
+> The same data is mirrored into the org's "Striver 180 Tracker" project.
+
 ## Overall Progress
 
 **TEAM:** {team_solved} / {team_total} completed-signals ({tc}%)
