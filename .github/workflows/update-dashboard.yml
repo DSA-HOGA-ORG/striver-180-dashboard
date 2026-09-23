@@ -23,7 +23,7 @@ jobs:
       - name: Checkout dashboard repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -73,4 +73,4 @@ jobs:
             exit 0
           fi
           git commit -m "dashboard: auto-update $(date -u +'%Y-%m-%d %H:%M:%S')"
-          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"
+          git push
