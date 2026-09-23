@@ -73,4 +73,5 @@ jobs:
             exit 0
           fi
           git commit -m "dashboard: auto-update $(date -u +'%Y-%m-%d %H:%M:%S')"
+          git pull --rebase --autostash
           git push
