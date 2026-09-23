@@ -39,6 +39,11 @@ automatically from each member's repository every time new solutions land.
 
 > Topics come from `data/problems.json` (the canonical Striver SDE Sheet).
 
+## Full board
+
+Open the **[per-problem progress board](generated/board.md)** for the complete
+status of all 191 problems (Day · Topic · Difficulty · who solved it).
+
 ## Recent Activity
 
 _Nothing yet — the first commit to any member repo will show up here automatically._
@@ -66,4 +71,4 @@ _None._
 
 ---
 
-_Generated at 2026-09-23T15:26:36Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-09-23T16:14:38Z (UTC) by `scripts/generate_dashboard.py`._

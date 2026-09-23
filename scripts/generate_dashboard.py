@@ -439,6 +439,11 @@ automatically from each member's repository every time new solutions land.
 
 > Topics come from `data/problems.json` (the canonical Striver SDE Sheet).
 
+## Full board
+
+Open the **[per-problem progress board](generated/board.md)** for the complete
+status of all {total} problems (Day · Topic · Difficulty · who solved it).
+
 ## Recent Activity
 
 {recent_block}
@@ -465,6 +470,46 @@ automatically from each member's repository every time new solutions land.
 
 _Generated at {generated_at} (UTC) by `scripts/generate_dashboard.py`._
 """
+
+
+def generate_board(dash: dict, problems: list, members: list) -> str:
+    """Full per-problem markdown table — the reliable 'board' view."""
+    solved = {
+        m["id"]: set(dash["by_member"][m["id"]]["solved_ids"])
+        for m in dash["members"]
+    }
+    name_by_id = {p["id"]: p for p in problems}
+    order = [p for p in problems if p["id"] in name_by_id]
+    order.sort(key=lambda p: p["id"])
+    day_index = {}   # day -> counter for the day's sequential number
+    day_slots = defaultdict(int)
+
+    rows = []
+    team_done = 0
+    for p in order:
+        day_slots[p["day"]] += 1
+        flags = [p["id"] in solved[m["id"]] for m in members]
+        team = any(flags)
+        team_done += int(team)
+        flags_s = ["✅" if f else "—" for f in flags]
+        rows.append(
+            f"| {p['day']:>2} | {day_slots[p['day']]:>2} | {p['name']} | {p['topic']} | "
+            f"{p['difficulty'] or '—'} | {'✅' if team else '—'} | "
+            f"{' | '.join(flags_s)} |"
+        )
+
+    header = (
+        f"| Day | # | Problem | Topic | Difficulty | Team | "
+        f"{' | '.join(m['display'] for m in members)} |"
+    )
+    sep = "|---|--|---|----|------|----|" + "---|" * len(members)
+    legend = " — ".join(f"**{m['display']}**" for m in members)
+    return (
+        f"# Progress Board — full per-problem status\n\n"
+        f"Members: {legend}. ✅ = solved by that member on their own repo.\n\n"
+        f"**Team:** {team_done} / {len(order)} problems solved by at least one member.\n\n"
+        f"{header}\n{sep}\n" + "\n".join(rows) + "\n"
+    )
 
 
 def build_dashboard(members, cfg, repos_root: Path, index: SheetIndex, generated_at: str) -> dict:
@@ -584,13 +629,16 @@ def main() -> int:
     readme = generate_readme(dash, cfg, members, generated_at)
     (out_root / "README.md").write_text(readme)
 
+    board = generate_board(dash, problems, members)
+    (gen_dir / "board.md").write_text(board)
+
     print("=== DASHBOARD ===")
     for m in dash["members"]:
         print(f"{m['display']:>10}: {m['solved']}/{dash['total']} solved "
               f"({m.get('unmapped') or 'all matched'})")
     print(f"TEAM: {sum(m['solved'] for m in dash['members'])} / "
           f"{dash['total'] * len(members)}")
-    print(f"Wrote {out_root / 'README.md'}, {gen_dir / 'dashboard.json'}, history.jsonl")
+    print(f"Wrote {out_root / 'README.md'}, {gen_dir / 'board.md'}, {gen_dir / 'dashboard.json'}, history.jsonl")
     return 0
 
 
