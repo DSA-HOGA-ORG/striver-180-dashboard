@@ -2,14 +2,14 @@
 
 Members: **Shaunak** — **Dibya** — **Saksham** — **Pratik**. ✅ = solved by that member on their own repo.
 
-**Team:** 0 / 179 problems solved by at least one member.
+**Team:** 4 / 179 problems solved by at least one member.
 
 | Day | # | Problem | Topic | Difficulty | Team | Shaunak | Dibya | Saksham | Pratik |
 |---|--|---|----|------|----|---|---|---|---|
-|  1 |  1 | Majority Element-I | Arrays | Medium | — | — | — | — | — |
-|  1 |  2 | Kadane's Algorithm | Arrays | Easy | — | — | — | — | — |
-|  1 |  3 | Majority Element-II | Arrays | Medium | — | — | — | — | — |
-|  1 |  4 | Maximum Product Subarray in an Array | Arrays | Medium | — | — | — | — | — |
+|  1 |  1 | Majority Element-I | Arrays | Medium | ✅ | ✅ | — | — | — |
+|  1 |  2 | Kadane's Algorithm | Arrays | Easy | ✅ | ✅ | — | — | — |
+|  1 |  3 | Majority Element-II | Arrays | Medium | ✅ | ✅ | — | — | — |
+|  1 |  4 | Maximum Product Subarray in an Array | Arrays | Medium | ✅ | ✅ | — | — | — |
 |  1 |  5 | Sort an array of 0's 1's and 2's | Arrays | Medium | — | — | — | — | — |
 |  1 |  6 | 3 Sum | Arrays | Medium | — | — | — | — | — |
 |  1 |  7 | Next Permutation | Arrays | Medium | — | — | — | — | — |
