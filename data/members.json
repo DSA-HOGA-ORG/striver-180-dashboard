@@ -24,6 +24,14 @@
       "role": "member",
       "repo": "SDESheetChallengeSaksham",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeSaksham"
+    },
+    {
+      "id": "pratik",
+      "display": "Pratik",
+      "github": "pratik-goel27",
+      "role": "member",
+      "repo": "SDESheetChallengePratik",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengePratik"
     }
   ]
 }

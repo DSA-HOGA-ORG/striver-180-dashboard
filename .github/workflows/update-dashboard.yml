@@ -33,7 +33,7 @@ jobs:
       - name: Clone member repos (public — no secrets needed)
         run: |
           mkdir -p repos
-          for repo in SDESheetChallenge SDESheetChallengeDIBYA SDESheetChallengeSaksham; do
+          for repo in SDESheetChallenge SDESheetChallengeDIBYA SDESheetChallengeSaksham SDESheetChallengePratik; do
             echo "== cloning $repo =="
             git clone --quiet --depth 1 "https://github.com/DSA-HOGA-ORG/${repo}.git" "repos/${repo}" \
               || echo "clone failed for ${repo} (skipping)"
@@ -46,7 +46,7 @@ jobs:
       - name: Validate outputs
         run: |
           python -m json.tool generated/dashboard.json > /dev/null
-          python -c "import json; d=json.load(open('generated/dashboard.json')); assert len(d['members'])==3, 'expected 3 members'"
+          python -c "import json; members=json.load(open('data/members.json'))['members']; d=json.load(open('generated/dashboard.json')); want={m['id'] for m in members}; got={m['id'] for m in d['members']}; assert got==want, f'member mismatch: {got} != {want}'"
 
       # Optional: push progress into GitHub Project #2. Requires an org-scoped
       # fine-grained PAT stored as the secret ORG_PROJECT_TOKEN with access to

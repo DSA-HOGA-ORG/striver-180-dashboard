@@ -9,7 +9,7 @@ automatically from each member's repository every time new solutions land.
 
 ## Overall Progress
 
-**TEAM:** 4 / 537 completed-signals (0.7%)
+**TEAM:** 0 / 716 completed-signals (0.0%)
 
 ░░░░░░░░░░░░░░░░░░░░
 
@@ -19,31 +19,32 @@ automatically from each member's repository every time new solutions land.
 
 | Rank | Member | Solved | Remaining | Progress | Bar |
 |------|--------|--------|-----------|----------|-----|
-| 1 | Shaunak | 4/179 | 175 | 2.2% | ░░░░░░░░░░░░░░░░░░░░ |
-| 2 | Dibya | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
+| 1 | Dibya | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
+| 2 | Pratik | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
 | 3 | Saksham | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
+| 4 | Shaunak | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
 
 ## Topic Progress
 
-| Topic | Shaunak | Dibya | Saksham |
-|------|------|------|------|
-| Arrays | 4 | 0 | 0 |
-| Hashing | 0 | 0 | 0 |
-| Binary Search | 0 | 0 | 0 |
-| Sliding Window and Two Pointers | 0 | 0 | 0 |
-| Recursion and Backtracking | 0 | 0 | 0 |
-| Linked List | 0 | 0 | 0 |
-| Stack and Queues | 0 | 0 | 0 |
-| Greedy Algorithms | 0 | 0 | 0 |
-| Heaps | 0 | 0 | 0 |
-| Binary Trees | 0 | 0 | 0 |
-| Binary Search Trees | 0 | 0 | 0 |
-| Graphs | 0 | 0 | 0 |
-| Dynamic Programming | 0 | 0 | 0 |
-| Tries | 0 | 0 | 0 |
-| Strings | 0 | 0 | 0 |
-| Bit Manipulation | 0 | 0 | 0 |
-| Mathematics | 0 | 0 | 0 |
+| Topic | Shaunak | Dibya | Saksham | Pratik |
+|------|------|------|------|------|
+| Arrays | 0 | 0 | 0 | 0 |
+| Hashing | 0 | 0 | 0 | 0 |
+| Binary Search | 0 | 0 | 0 | 0 |
+| Sliding Window and Two Pointers | 0 | 0 | 0 | 0 |
+| Recursion and Backtracking | 0 | 0 | 0 | 0 |
+| Linked List | 0 | 0 | 0 | 0 |
+| Stack and Queues | 0 | 0 | 0 | 0 |
+| Greedy Algorithms | 0 | 0 | 0 | 0 |
+| Heaps | 0 | 0 | 0 | 0 |
+| Binary Trees | 0 | 0 | 0 | 0 |
+| Binary Search Trees | 0 | 0 | 0 | 0 |
+| Graphs | 0 | 0 | 0 | 0 |
+| Dynamic Programming | 0 | 0 | 0 | 0 |
+| Tries | 0 | 0 | 0 | 0 |
+| Strings | 0 | 0 | 0 | 0 |
+| Bit Manipulation | 0 | 0 | 0 | 0 |
+| Mathematics | 0 | 0 | 0 | 0 |
 
 > Topics come from `data/problems.json` (the canonical Striver SDE Sheet).
 
@@ -54,16 +55,14 @@ status of all 179 problems (Day · Topic · Difficulty · who solved it).
 
 ## Recent Activity
 
-- **Shaunak** solved *Majority Element-I* (1)
-- **Shaunak** solved *Kadane's Algorithm* (1)
-- **Shaunak** solved *Majority Element-II* (1)
-- **Shaunak** solved *Maximum Product Subarray in an Array* (1)
+_Nothing yet — the first commit to any member repo will show up here automatically._
 
 ## Repositories
 
 - **Shaunak** — [SDESheetChallenge](https://github.com/DSA-HOGA-ORG/SDESheetChallenge)
 - **Dibya** — [SDESheetChallengeDIBYA](https://github.com/DSA-HOGA-ORG/SDESheetChallengeDIBYA)
 - **Saksham** — [SDESheetChallengeSaksham](https://github.com/DSA-HOGA-ORG/SDESheetChallengeSaksham)
+- **Pratik** — [SDESheetChallengePratik](https://github.com/DSA-HOGA-ORG/SDESheetChallengePratik)
 
 ## How it updates
 
@@ -82,4 +81,4 @@ _None._
 
 ---
 
-_Generated at 2026-09-23T16:46:48Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-09-23T16:51:21Z (UTC) by `scripts/generate_dashboard.py`._

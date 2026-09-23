@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T16:46:48Z",
+  "generated_at": "2026-09-23T16:51:21Z",
   "org": "DSA-HOGA-ORG",
   "sheet_total": 179,
   "total": 179,
@@ -10,16 +10,9 @@
       "repo": "SDESheetChallenge",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
       "github": "ShaunakMishra25",
-      "solved": 4,
-      "solved_ids": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "topics": {
-        "Arrays": 4
-      },
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
       "unmapped": [],
       "note": null
     },
@@ -46,46 +39,21 @@
       "topics": {},
       "unmapped": [],
       "note": null
+    },
+    {
+      "id": "pratik",
+      "display": "Pratik",
+      "repo": "SDESheetChallengePratik",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengePratik",
+      "github": "pratik-goel27",
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
+      "unmapped": [],
+      "note": null
     }
   ],
-  "recent_activity": [
-    {
-      "member": "Shaunak",
-      "pid": 1,
-      "problem": "Majority Element-I",
-      "day": 1,
-      "topic": "Arrays",
-      "difficulty": "Medium",
-      "when": "2026-09-23T16:46:48Z"
-    },
-    {
-      "member": "Shaunak",
-      "pid": 2,
-      "problem": "Kadane's Algorithm",
-      "day": 1,
-      "topic": "Arrays",
-      "difficulty": "Easy",
-      "when": "2026-09-23T16:46:48Z"
-    },
-    {
-      "member": "Shaunak",
-      "pid": 3,
-      "problem": "Majority Element-II",
-      "day": 1,
-      "topic": "Arrays",
-      "difficulty": "Medium",
-      "when": "2026-09-23T16:46:48Z"
-    },
-    {
-      "member": "Shaunak",
-      "pid": 4,
-      "problem": "Maximum Product Subarray in an Array",
-      "day": 1,
-      "topic": "Arrays",
-      "difficulty": "Medium",
-      "when": "2026-09-23T16:46:48Z"
-    }
-  ],
+  "recent_activity": [],
   "topic_order": [
     "Arrays",
     "Hashing",
@@ -112,16 +80,9 @@
       "repo": "SDESheetChallenge",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
       "github": "ShaunakMishra25",
-      "solved": 4,
-      "solved_ids": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "topics": {
-        "Arrays": 4
-      },
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
       "unmapped": [],
       "note": null
     },
@@ -143,6 +104,18 @@
       "repo": "SDESheetChallengeSaksham",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeSaksham",
       "github": "Sakshamraj777",
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
+      "unmapped": [],
+      "note": null
+    },
+    "pratik": {
+      "id": "pratik",
+      "display": "Pratik",
+      "repo": "SDESheetChallengePratik",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengePratik",
+      "github": "pratik-goel27",
       "solved": 0,
       "solved_ids": [],
       "topics": {},
