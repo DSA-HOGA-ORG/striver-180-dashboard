@@ -61,7 +61,10 @@ jobs:
             --token "$ORG_PROJECT_TOKEN" \
             --owner "DSA-HOGA-ORG" \
             --project-number 2 \
-            --dashboard generated/dashboard.json
+            --dashboard generated/dashboard.json \
+            --problems data/problems.json \
+            --members data/members.json \
+            --registry data/synced_items.json
 
       - name: Commit and push if changed
         run: |
