@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+repos/
+.venv/
+venv/
+.DS_Store
+*.exe
+a.out
+gitsync

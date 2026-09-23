@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-09-23T11:53:01Z",
+  "org": "DSA-HOGA-ORG",
+  "sheet_total": 191,
+  "total": 191,
+  "members": [
+    {
+      "id": "shaunak",
+      "display": "Shaunak",
+      "repo": "SDESheetChallenge",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
+      "github": "ShaunakMishra25",
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
+      "unmapped": [],
+      "note": null
+    },
+    {
+      "id": "dibya",
+      "display": "Dibya",
+      "repo": "SDESheetChallengeDIBYA",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeDIBYA",
+      "github": "dibyadarshandash8934-dev",
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
+      "unmapped": [],
+      "note": null
+    },
+    {
+      "id": "saksham",
+      "display": "Saksham",
+      "repo": "SDESheetChallengeSaksham",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeSaksham",
+      "github": "Sakshamraj777",
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
+      "unmapped": [],
+      "note": null
+    }
+  ],
+  "recent_activity": [],
+  "topic_order": [
+    "Arrays",
+    "Linked List",
+    "Greedy",
+    "Recursion",
+    "Binary Search",
+    "Heaps",
+    "Stack & Queue",
+    "Strings",
+    "Binary Tree",
+    "BST",
+    "Graph",
+    "Dynamic Programming",
+    "Trie"
+  ],
+  "by_member": {
+    "shaunak": {
+      "id": "shaunak",
+      "display": "Shaunak",
+      "repo": "SDESheetChallenge",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
+      "github": "ShaunakMishra25",
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
+      "unmapped": [],
+      "note": null
+    },
+    "dibya": {
+      "id": "dibya",
+      "display": "Dibya",
+      "repo": "SDESheetChallengeDIBYA",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeDIBYA",
+      "github": "dibyadarshandash8934-dev",
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
+      "unmapped": [],
+      "note": null
+    },
+    "saksham": {
+      "id": "saksham",
+      "display": "Saksham",
+      "repo": "SDESheetChallengeSaksham",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeSaksham",
+      "github": "Sakshamraj777",
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
+      "unmapped": [],
+      "note": null
+    }
+  }
+}

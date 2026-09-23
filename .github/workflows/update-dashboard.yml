@@ -1,0 +1,76 @@
+name: Update Striver Dashboard
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Run four times a day. Members push whenever they solve problems, so this
+    # keeps the dashboard fresh at worst within a few hours and needs no tokens.
+    - cron: "30 0,6,12,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dashboard-update
+  cancel-in-progress: false
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout dashboard repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Clone member repos (public — no secrets needed)
+        run: |
+          mkdir -p repos
+          for repo in SDESheetChallenge SDESheetChallengeDIBYA SDESheetChallengeSaksham; do
+            echo "== cloning $repo =="
+            git clone --quiet --depth 1 "https://github.com/DSA-HOGA-ORG/${repo}.git" "repos/${repo}" \
+              || echo "clone failed for ${repo} (skipping)"
+          done
+
+      - name: Generate dashboard
+        run: |
+          python scripts/generate_dashboard.py --repo-root repos
+
+      - name: Validate outputs
+        run: |
+          python -m json.tool generated/dashboard.json > /dev/null
+          python -c "import json; d=json.load(open('generated/dashboard.json')); assert len(d['members'])==3, 'expected 3 members'"
+
+      # Optional: push progress into GitHub Project #2. Requires an org-scoped
+      # fine-grained PAT stored as the secret ORG_PROJECT_TOKEN with access to
+      # the dashboard repo AND the project. When absent the step is skipped and
+      # the dashboard repository remains the single source of truth.
+      - name: Sync GitHub Project (optional)
+        if: env.ORG_PROJECT_TOKEN != ''
+        env:
+          ORG_PROJECT_TOKEN: ${{ secrets.ORG_PROJECT_TOKEN }}
+        run: |
+          python scripts/sync_project.py \
+            --token "$ORG_PROJECT_TOKEN" \
+            --owner "DSA-HOGA-ORG" \
+            --project-number 2 \
+            --dashboard generated/dashboard.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "DSA-HOGA-ORG"
+          git config user.email "DSA-HOGA-ORG@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes — dashboard already up to date."
+            exit 0
+          fi
+          git commit -m "dashboard: auto-update $(date -u +'%Y-%m-%d %H:%M:%S')"
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"

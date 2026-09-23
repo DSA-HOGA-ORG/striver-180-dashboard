@@ -1,0 +1,29 @@
+{
+  "members": [
+    {
+      "id": "shaunak",
+      "display": "Shaunak",
+      "github": "ShaunakMishra25",
+      "role": "owner",
+      "repo": "SDESheetChallenge",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge"
+    },
+    {
+      "id": "dibya",
+      "display": "Dibya",
+      "github": "dibyadarshandash8934-dev",
+      "github_inferred": true,
+      "role": "member",
+      "repo": "SDESheetChallengeDIBYA",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeDIBYA"
+    },
+    {
+      "id": "saksham",
+      "display": "Saksham",
+      "github": "Sakshamraj777",
+      "role": "member",
+      "repo": "SDESheetChallengeSaksham",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeSaksham"
+    }
+  ]
+}

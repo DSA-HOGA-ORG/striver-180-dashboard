@@ -1,0 +1,40 @@
+{
+  "org": "DSA-HOGA-ORG",
+  "dashboard_repo": "striver-180-dashboard",
+  "default_branch": "main",
+  "clone_base_url": "https://github.com",
+  "advertised_sheet_total": 180,
+  "advertised_sheet_label": "Striver 180",
+  "target_total": null,
+  "repos": [
+    {
+      "name": "SDESheetChallenge",
+      "member": "shaunak"
+    },
+    {
+      "name": "SDESheetChallengeDIBYA",
+      "member": "dibya"
+    },
+    {
+      "name": "SDESheetChallengeSaksham",
+      "member": "saksham"
+    }
+  ],
+  "sources": ["main_py", "main_cpp", "solution_files", "daily_log"],
+  "recent_activity_limit": 8,
+  "project": {
+    "number": 2,
+    "enabled": true,
+    "sync_enabled": false,
+    "fields": {
+      "Problem": "text",
+      "Topic": "single_select",
+      "Difficulty": "single_select",
+      "Status": "single_select",
+      "Shaunak": "single_select",
+      "Dibya": "single_select",
+      "Saksham": "single_select",
+      "Last Updated": "date"
+    }
+  }
+}
