@@ -29,22 +29,19 @@ Runner. KNOWN_PROBLEMS lives here.
 
 # "slug": ("topic.subtopic", "module", "method")
 KNOWN_PROBLEMS = {
-    "set-matrix-zeroes": ("Arrays.LinearScan", "SetMatrixZeroes", "setZeroes"),
+    "majority-element": ("Arrays.LinearScan", "MajorityElementI", "majorityElement"),
     "next-permutation": ("Arrays.LinearScan", "NextPermutation", "nextPermutation"),
-    "maximum-subarray": ("Arrays.LinearScan", "MaximumSubarray", "maxSubArray"),
-    "best-time-to-buy-and-sell-stock": ("Arrays.LinearScan", "BestTimeToBuyAndSell", "maxProfit"),
+    "maximum-subarray": ("Arrays.LinearScan", "Kadane", "maxSubArray"),
     "two-sum": ("Arrays.TwoPointers", "TwoSum", "twoSum"),
     "3-sum": ("Arrays.TwoPointers", "ThreeSum", "threeSum"),
+    "merge-sorted-array": ("Arrays.TwoPointers", "MergeSortedArray", "merge"),
     "reverse-pairs": ("Arrays.DivideAndConquer", "ReversePairs", "reversePairs"),
-    "kth-largest-element-in-an-array": ("BinarySearch.BinarySearch", "KthLargestElementInArray", "findKthLargest"),
+    "kth-largest-element-in-an-array": ("Heaps.Heap", "KthLargestElementInArray", "findKthLargest"),
     "kth-largest-element-in-an-unsorted-array": ("Heaps.Heap", "KthLargestUnsorted", "findKthLargest"),
-    "median-of-two-sorted-arrays": ("BinarySearch.PartitionSearch", "MedianTwoSorted", "findMedianSortedArrays"),
-    "allocate-minimum-number-of-pages": ("BinarySearch.SearchOnAnswer", "AllocatePages", "allocatePages"),
-    "find-median-in-a-stream-of-running-integers": ("Heaps.Heap", "MedianStream", "addNum"),
+    "median-of-two-sorted-arrays": ("BinarySearch.BinarySearch", "MedianTwoSorted", "findMedianSortedArrays"),
+    "find-median-from-a-data-stream": ("Heaps.Heap", "MedianStream", "addNum"),
     "rotten-oranges": ("Graph.BFS", "RottenOranges", "orangesRotting"),
-    "set-matrix-zeros": ("Arrays.LinearScan", "SetMatrixZeroesAlt", "setZeroes"),
     "custom-extra-problem": ("Arrays.LinearScan", "ExtraThing", "solve"),
-    # "count-and-say" would be registered here later
 }
 
 TEST_CASES = {
@@ -58,9 +55,8 @@ MAIN_CPP = '''\
 #include <string>
 
 static const std::map<std::string, std::function<void()>> PROBLEMS = {
-    {"merge-intervals", run_merge_intervals},
-    // {"count-and-say", run_count_and_say},      // still unsolved, ignore me
     {"trapping-rainwater", run_trapping_rainwater},
+    // {"next-permutation", run_next_permutation},  // still unsolved, ignore me
 };
 '''
 
@@ -72,22 +68,31 @@ DAILY_LOG = '''\
 **Topic:** Arrays
 **Problems solved:** 2
 
-### Problem: Pascal's Triangle
-- **Link:** [LeetCode](https://leetcode.com/problems/pascals-triangle/)
-- **Status:** Solved
-
 ### Problem: Sort Colors
 - **Link:** [LeetCode](https://leetcode.com/problems/sort-colors/)
+- **Status:** Solved
+
+### Problem: Longest Common Subsequence
+- **Link:** [LeetCode](https://leetcode.com/problems/longest-common-subsequence/)
 - **Status:** Solved
 '''
 
 FILES = {
-    "Arrays/LinearScan/SetMatrixZeroes.py": "class Solution:\n    def setZeroes(self, m): pass\n",
-    "Arrays/LinearScan/MaximumSubarray.py": "class Solution:\n    def maxSubArray(self, n): pass\n",
-    "Arrays/LinearScan/PascalsTriangle.py": "class Solution:\n    def generate(self, n): pass\n",
-    "Arrays/TwoPointers/TwoSum.py": "class Solution:\n    def twoSum(self, n, t): pass\n",
-    "Arrays/TwoPointers/SortColors.py": "class Solution:\n    def sortColors(self, n): pass\n",
-    "Arrays/TwoPointers/NextPermutation.cpp": "namespace next_permutation { class Solution {}; }",
+    "Arrays/LinearScan/MajorityElement.py": "class Solution:\n    def majorityElement(self, n): pass\n",
+    "Arrays/LinearScan/Kadane.py": "class Solution:\n    def maxSubArray(self, n): pass\n",
+    "Arrays/LinearScan/SortColors.py": "class Solution:\n    def sortColors(self, n): pass\n",
+    "Arrays/LinearScan/TwoSum.py": "class Solution:\n    def twoSum(self, n, t): pass\n",
+    "Arrays/LinearScan/ThreeSum.cpp": "namespace three_sum { class Solution {}; }",
+    "Arrays/LinearScan/NextPermutation.cpp": "namespace next_permutation { class Solution {}; }",
+    "Arrays/LinearScan/MergeSortedArray.py": "class Solution:\n    def merge(self, n, m): pass\n",
+    "Arrays/LinearScan/LCS.py": "class Solution:\n    def longestCommonSubsequence(self, a, b): pass\n",
+    "Arrays/DivideAndConquer/ReversePairs.cpp": "namespace reverse_pairs { class Solution {}; }",
+    "Arrays/Hashing/LongestConsecutive.py": "class Solution:\n    def longestConsecutive(self, n): pass\n",
+    "BinarySearch/SearchAnswer/BookAllocation.cpp": "namespace book_allocation { class Solution {}; }",
+    "Heaps/Heap/KthLargest.cpp": "namespace kth_largest { class Solution {}; }",
+    "Heaps/Heap/MedianFinder.py": "class MedianFinder:\n    def addNum(self, n): pass\n",
+    "Design/LRUCache.cpp": "namespace lru_cache { class LRUCache {}; }",
+    "Graph/BFS/RottenOranges.cpp": "namespace rotten_oranges { class Solution {}; }",
     "tests/test_dummy.py": "def test_x(): pass\n",
     "main.py": MAIN_PY,
     "main.cpp": MAIN_CPP,
@@ -100,23 +105,23 @@ FILES = {
 
 # problems that must be counted for the synthetic member (ids from data/problems.json)
 EXPECTED_PIDS = {
-    1,   # set-matrix-zeroes (+ alias "set-matrix-zeros")
-    2,   # pascal's triangle        (daily log + solution file)
-    3,   # next-permutation         (main.py + cpp file)
-    4,   # maximum-subarray/Kadane  (main.py + file)
-    5,   # sort colors              (daily log + file)
-    6,   # best-time-to-buy-and-sell-stock (main.py)
-    8,   # merge-intervals          (main.cpp)
-    18,  # reverse-pairs            (main.py)
-    19,  # two-sum                  (main.py + file)
-    39,  # 3-sum                    (main.py)
-    40,  # trapping-rainwater       (main.cpp)
-    65,  # median-of-two-sorted-arrays (main.py)
-    67,  # allocate-minimum-number-of-pages (main.py)
-    70,  # kth-largest-element-in-an-array (main.py)
-    88,  # rotten oranges           (main.py)
-    147,  # find-median-in-a-stream-of-running-integers (main.py)
-    150,  # kth-largest-element-in-an-unsorted-array (main.py)
+    1,   # majority-element        (file + main.py)
+    2,   # maximum-subarray/Kadane (main.py + file)
+    5,   # sort colors             (daily log + file)
+    6,   # 3 sum                   (main.py + file)
+    7,   # next-permutation        (main.py + cpp file)
+    9,   # merge-sorted-array      (main.py + file)
+    10,  # trapping-rainwater      (main.cpp)
+    12,  # reverse-pairs           (main.py + file)
+    13,  # two-sum                 (main.py + file)
+    14,  # longest-consecutive-sequence (file)
+    27,  # book allocation         (file, fuzzy name)
+    30,  # median-of-two-sorted-arrays (main.py)
+    78,  # lru-cache               (file)
+    91,  # kth-largest-element-in-an-array (main.py)
+    92,  # find-median-from-data-stream (main.py)
+    120, # rotten oranges          (main.py + file)
+    157, # longest common subsequence (daily log + file)
 }
 
 if __name__ == "__main__":

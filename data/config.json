@@ -3,7 +3,7 @@
   "dashboard_repo": "striver-180-dashboard",
   "default_branch": "main",
   "clone_base_url": "https://github.com",
-  "advertised_sheet_total": 180,
+  "advertised_sheet_total": 179,
   "advertised_sheet_label": "Striver 180",
   "target_total": null,
   "repos": [

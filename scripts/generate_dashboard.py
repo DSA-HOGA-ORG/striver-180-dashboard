@@ -110,33 +110,46 @@ class SheetIndex:
             self.name_tokens[pid] = normalize_tokens(
                 p["name"] + " " + p["slug"] + " " + " ".join(p.get("aliases", []))
             )
-        # a few high-value shorthands, keyed as (day, num) so ids stay correct
-        def pid_of(day, num):
-            return day_base[day] + num - 1
-
+        # high-value shorthand -> problem NAME, resolved against the current sheet
         shorthand = {
-            "kadane": pid_of(1, 4), "kadanes": pid_of(1, 4),
-            "two-sum": pid_of(4, 1), "2-sum": pid_of(4, 1),
-            "four-sum": pid_of(4, 2), "4-sum": pid_of(4, 2),
-            "three-sum": pid_of(7, 3), "3-sum": pid_of(7, 3),
-            "lis": pid_of(25, 2), "longest-increasing-subsequence": pid_of(25, 2),
-            "lcs": pid_of(25, 3), "longest-common-subsequence": pid_of(25, 3),
-            "mcm": pid_of(25, 7), "matrix-chain-multiplication": pid_of(25, 7),
-            "lru": pid_of(14, 2), "lru-cache": pid_of(14, 2),
-            "lfu": pid_of(14, 3), "lfu-cache": pid_of(14, 3),
-            "n-queen": pid_of(10, 2), "nqueens": pid_of(10, 2),
-            "dfs": pid_of(23, 2), "bfs": pid_of(23, 3),
-            "topological-sort": pid_of(23, 8),
-            "wordbreak": pid_of(26, 6),
-            "egg-drop": pid_of(26, 5), "egg-dropping": pid_of(26, 5),
-            "coinchange": pid_of(26, 2), "coin-change": pid_of(26, 2),
-            "power-set": pid_of(27, 5), "powerset": pid_of(27, 5),
-            "subsets": pid_of(27, 5),
+            "kadane": "Kadane's Algorithm", "kadanes": "Kadane's Algorithm",
+            "two-sum": "Two Sum", "2-sum": "Two Sum",
+            "four-sum": "4 Sum", "4-sum": "4 Sum",
+            "three-sum": "3 Sum", "3-sum": "3 Sum",
+            "lis": "Longest Increasing Subsequence",
+            "longest-increasing-subsequence": "Longest Increasing Subsequence",
+            "lcs": "Longest Common Subsequence",
+            "longest-common-subsequence": "Longest Common Subsequence",
+            "mcm": "Matrix chain multiplication",
+            "matrix-chain-multiplication": "Matrix chain multiplication",
+            "lru": "LRU Cache", "lru-cache": "LRU Cache",
+            "lfu": "LFU Cache", "lfu-cache": "LFU Cache",
+            "n-queen": "N Queen", "nqueens": "N Queen",
+            "topological-sort": "Topological sort or Kahn's algorithm",
+            "coinchange": "Coin change II", "coin-change": "Coin change II",
+            "power-set": "Power Set", "powerset": "Power Set",
+            "subsets": "Power Set",
         }
-        for k, pid in shorthand.items():
+        for k, name in shorthand.items():
             k = slugify(k)
-            if k and k not in self.exact:
+            if not k or k in self.exact:
+                continue
+            pid = self._by_name(name)
+            if pid is not None:
                 self.exact[k] = pid
+
+    def _by_name(self, name):
+        """Resolve a problem NAME to its pid via slug, exact token or fuzzy match."""
+        k = slugify(name)
+        if k and k in self.exact:
+            return self.exact[k]
+        nt = normalize_tokens(name)
+        best, best_conf = None, 0.0
+        for pid, toks in self.name_tokens.items():
+            conf = max(jaccard(nt, toks), word_cover(nt, toks))
+            if conf > best_conf:
+                best, best_conf = pid, conf
+        return best if best_conf >= 0.6 else None
 
     def _day_bases(self):
         bases = {}
@@ -462,8 +475,8 @@ status of all {total} problems (Day · Topic · Difficulty · who solved it).
 
 ## Canonical sheet
 
-- Sheet: {label} ({cfg.get('advertised_sheet_total', total)} advertised) — {total}
-  distinct problems tracked in `data/problems.json`.
+- Sheet: {label} — {total} distinct problems tracked in
+  `data/problems.json` (synced from the live takeUforward sheet).
 - Unmatched slugs (please flag these to adjust the alias map):\n{unmapped_block}
 
 ---
