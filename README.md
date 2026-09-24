@@ -9,7 +9,7 @@ automatically from each member's repository every time new solutions land.
 
 ## Overall Progress
 
-**TEAM:** 4 / 716 completed-signals (0.6%)
+**TEAM:** 8 / 716 completed-signals (1.1%)
 
 ░░░░░░░░░░░░░░░░░░░░
 
@@ -19,7 +19,7 @@ automatically from each member's repository every time new solutions land.
 
 | Rank | Member | Solved | Remaining | Progress | Bar |
 |------|--------|--------|-----------|----------|-----|
-| 1 | Shaunak | 4/179 | 175 | 2.2% | ░░░░░░░░░░░░░░░░░░░░ |
+| 1 | Shaunak | 8/179 | 171 | 4.5% | █░░░░░░░░░░░░░░░░░░░ |
 | 2 | Dibya | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
 | 3 | Pratik | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
 | 4 | Saksham | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
@@ -28,7 +28,7 @@ automatically from each member's repository every time new solutions land.
 
 | Topic | Shaunak | Dibya | Saksham | Pratik |
 |------|------|------|------|------|
-| Arrays | 4 | 0 | 0 | 0 |
+| Arrays | 8 | 0 | 0 | 0 |
 | Hashing | 0 | 0 | 0 | 0 |
 | Binary Search | 0 | 0 | 0 | 0 |
 | Sliding Window and Two Pointers | 0 | 0 | 0 | 0 |
@@ -59,6 +59,10 @@ status of all 179 problems (Day · Topic · Difficulty · who solved it).
 - **Shaunak** solved *Kadane's Algorithm* (1)
 - **Shaunak** solved *Majority Element-II* (1)
 - **Shaunak** solved *Maximum Product Subarray in an Array* (1)
+- **Shaunak** solved *Sort an array of 0's 1's and 2's* (1)
+- **Shaunak** solved *3 Sum* (1)
+- **Shaunak** solved *Next Permutation* (1)
+- **Shaunak** solved *4 Sum* (1)
 
 ## Repositories
 
@@ -84,4 +88,4 @@ _None._
 
 ---
 
-_Generated at 2026-09-24T05:06:14Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-09-24T08:16:48Z (UTC) by `scripts/generate_dashboard.py`._

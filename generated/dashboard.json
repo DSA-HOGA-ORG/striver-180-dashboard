@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:06:14Z",
+  "generated_at": "2026-09-24T08:16:48Z",
   "org": "DSA-HOGA-ORG",
   "sheet_total": 179,
   "total": 179,
@@ -10,15 +10,19 @@
       "repo": "SDESheetChallenge",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
       "github": "ShaunakMishra25",
-      "solved": 4,
+      "solved": 8,
       "solved_ids": [
         1,
         2,
         3,
-        4
+        4,
+        5,
+        6,
+        7,
+        8
       ],
       "topics": {
-        "Arrays": 4
+        "Arrays": 8
       },
       "unmapped": [],
       "note": null
@@ -68,7 +72,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-24T05:06:14Z"
+      "when": "2026-09-24T08:16:48Z"
     },
     {
       "member": "Shaunak",
@@ -77,7 +81,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Easy",
-      "when": "2026-09-24T05:06:14Z"
+      "when": "2026-09-24T08:16:48Z"
     },
     {
       "member": "Shaunak",
@@ -86,7 +90,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-24T05:06:14Z"
+      "when": "2026-09-24T08:16:48Z"
     },
     {
       "member": "Shaunak",
@@ -95,7 +99,43 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-24T05:06:14Z"
+      "when": "2026-09-24T08:16:48Z"
+    },
+    {
+      "member": "Shaunak",
+      "pid": 5,
+      "problem": "Sort an array of 0's 1's and 2's",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-24T08:16:48Z"
+    },
+    {
+      "member": "Shaunak",
+      "pid": 6,
+      "problem": "3 Sum",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-24T08:16:48Z"
+    },
+    {
+      "member": "Shaunak",
+      "pid": 7,
+      "problem": "Next Permutation",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-24T08:16:48Z"
+    },
+    {
+      "member": "Shaunak",
+      "pid": 8,
+      "problem": "4 Sum",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-24T08:16:48Z"
     }
   ],
   "topic_order": [
@@ -124,15 +164,19 @@
       "repo": "SDESheetChallenge",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
       "github": "ShaunakMishra25",
-      "solved": 4,
+      "solved": 8,
       "solved_ids": [
         1,
         2,
         3,
-        4
+        4,
+        5,
+        6,
+        7,
+        8
       ],
       "topics": {
-        "Arrays": 4
+        "Arrays": 8
       },
       "unmapped": [],
       "note": null
