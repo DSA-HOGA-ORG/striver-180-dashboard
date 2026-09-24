@@ -9,7 +9,7 @@ automatically from each member's repository every time new solutions land.
 
 ## Overall Progress
 
-**TEAM:** 9 / 716 completed-signals (1.3%)
+**TEAM:** 10 / 716 completed-signals (1.4%)
 
 ░░░░░░░░░░░░░░░░░░░░
 
@@ -21,14 +21,14 @@ automatically from each member's repository every time new solutions land.
 |------|--------|--------|-----------|----------|-----|
 | 1 | Shaunak | 8/179 | 171 | 4.5% | █░░░░░░░░░░░░░░░░░░░ |
 | 2 | Dibya | 1/179 | 178 | 0.6% | ░░░░░░░░░░░░░░░░░░░░ |
-| 3 | Pratik | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
+| 3 | Pratik | 1/179 | 178 | 0.6% | ░░░░░░░░░░░░░░░░░░░░ |
 | 4 | Saksham | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
 
 ## Topic Progress
 
 | Topic | Shaunak | Dibya | Saksham | Pratik |
 |------|------|------|------|------|
-| Arrays | 8 | 1 | 0 | 0 |
+| Arrays | 8 | 1 | 0 | 1 |
 | Hashing | 0 | 0 | 0 | 0 |
 | Binary Search | 0 | 0 | 0 | 0 |
 | Sliding Window and Two Pointers | 0 | 0 | 0 | 0 |
@@ -88,4 +88,4 @@ _None._
 
 ---
 
-_Generated at 2026-09-24T14:18:20Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-09-24T14:30:13Z (UTC) by `scripts/generate_dashboard.py`._
