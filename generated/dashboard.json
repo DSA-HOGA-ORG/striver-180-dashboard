@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:01:00Z",
+  "generated_at": "2026-09-24T13:40:37Z",
   "org": "DSA-HOGA-ORG",
   "sheet_total": 179,
   "total": 179,
@@ -33,9 +33,13 @@
       "repo": "SDESheetChallengeDIBYA",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeDIBYA",
       "github": "dibyadarshandash8934-dev",
-      "solved": 0,
-      "solved_ids": [],
-      "topics": {},
+      "solved": 1,
+      "solved_ids": [
+        1
+      ],
+      "topics": {
+        "Arrays": 1
+      },
       "unmapped": [],
       "note": null
     },
@@ -72,7 +76,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-24T12:01:00Z"
+      "when": "2026-09-24T13:40:37Z"
     },
     {
       "member": "Shaunak",
@@ -81,7 +85,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Easy",
-      "when": "2026-09-24T12:01:00Z"
+      "when": "2026-09-24T13:40:37Z"
     },
     {
       "member": "Shaunak",
@@ -90,7 +94,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-24T12:01:00Z"
+      "when": "2026-09-24T13:40:37Z"
     },
     {
       "member": "Shaunak",
@@ -99,7 +103,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-24T12:01:00Z"
+      "when": "2026-09-24T13:40:37Z"
     },
     {
       "member": "Shaunak",
@@ -108,7 +112,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-24T12:01:00Z"
+      "when": "2026-09-24T13:40:37Z"
     },
     {
       "member": "Shaunak",
@@ -117,7 +121,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-24T12:01:00Z"
+      "when": "2026-09-24T13:40:37Z"
     },
     {
       "member": "Shaunak",
@@ -126,7 +130,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-24T12:01:00Z"
+      "when": "2026-09-24T13:40:37Z"
     },
     {
       "member": "Shaunak",
@@ -135,7 +139,16 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-24T12:01:00Z"
+      "when": "2026-09-24T13:40:37Z"
+    },
+    {
+      "member": "Dibya",
+      "pid": 1,
+      "problem": "Majority Element-I",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-24T13:40:37Z"
     }
   ],
   "topic_order": [
@@ -187,9 +200,13 @@
       "repo": "SDESheetChallengeDIBYA",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeDIBYA",
       "github": "dibyadarshandash8934-dev",
-      "solved": 0,
-      "solved_ids": [],
-      "topics": {},
+      "solved": 1,
+      "solved_ids": [
+        1
+      ],
+      "topics": {
+        "Arrays": 1
+      },
       "unmapped": [],
       "note": null
     },
