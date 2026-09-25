@@ -32,6 +32,14 @@
       "role": "member",
       "repo": "SDESheetChallengePratik",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengePratik"
+    },
+    {
+      "id": "smruti",
+      "display": "Smruti Ranjan",
+      "github": "smruti-ranjan-01",
+      "role": "member",
+      "repo": "SDESheetChallengeSMRUTI",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeSMRUTI"
     }
   ]
 }

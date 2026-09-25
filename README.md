@@ -9,7 +9,7 @@ automatically from each member's repository every time new solutions land.
 
 ## Overall Progress
 
-**TEAM:** 12 / 716 completed-signals (1.7%)
+**TEAM:** 18 / 895 completed-signals (2.0%)
 
 ░░░░░░░░░░░░░░░░░░░░
 
@@ -20,31 +20,32 @@ automatically from each member's repository every time new solutions land.
 | Rank | Member | Solved | Remaining | Progress | Bar |
 |------|--------|--------|-----------|----------|-----|
 | 1 | Shaunak | 10/179 | 169 | 5.6% | █░░░░░░░░░░░░░░░░░░░ |
-| 2 | Dibya | 1/179 | 178 | 0.6% | ░░░░░░░░░░░░░░░░░░░░ |
-| 3 | Pratik | 1/179 | 178 | 0.6% | ░░░░░░░░░░░░░░░░░░░░ |
-| 4 | Saksham | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
+| 2 | Smruti Ranjan | 8/179 | 171 | 4.5% | █░░░░░░░░░░░░░░░░░░░ |
+| 3 | Dibya | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
+| 4 | Pratik | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
+| 5 | Saksham | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
 
 ## Topic Progress
 
-| Topic | Shaunak | Dibya | Saksham | Pratik |
-|------|------|------|------|------|
-| Arrays | 10 | 1 | 0 | 1 |
-| Hashing | 0 | 0 | 0 | 0 |
-| Binary Search | 0 | 0 | 0 | 0 |
-| Sliding Window and Two Pointers | 0 | 0 | 0 | 0 |
-| Recursion and Backtracking | 0 | 0 | 0 | 0 |
-| Linked List | 0 | 0 | 0 | 0 |
-| Stack and Queues | 0 | 0 | 0 | 0 |
-| Greedy Algorithms | 0 | 0 | 0 | 0 |
-| Heaps | 0 | 0 | 0 | 0 |
-| Binary Trees | 0 | 0 | 0 | 0 |
-| Binary Search Trees | 0 | 0 | 0 | 0 |
-| Graphs | 0 | 0 | 0 | 0 |
-| Dynamic Programming | 0 | 0 | 0 | 0 |
-| Tries | 0 | 0 | 0 | 0 |
-| Strings | 0 | 0 | 0 | 0 |
-| Bit Manipulation | 0 | 0 | 0 | 0 |
-| Mathematics | 0 | 0 | 0 | 0 |
+| Topic | Shaunak | Dibya | Saksham | Pratik | Smruti Ranjan |
+|------|------|------|------|------|------|
+| Arrays | 10 | 0 | 0 | 0 | 8 |
+| Hashing | 0 | 0 | 0 | 0 | 0 |
+| Binary Search | 0 | 0 | 0 | 0 | 0 |
+| Sliding Window and Two Pointers | 0 | 0 | 0 | 0 | 0 |
+| Recursion and Backtracking | 0 | 0 | 0 | 0 | 0 |
+| Linked List | 0 | 0 | 0 | 0 | 0 |
+| Stack and Queues | 0 | 0 | 0 | 0 | 0 |
+| Greedy Algorithms | 0 | 0 | 0 | 0 | 0 |
+| Heaps | 0 | 0 | 0 | 0 | 0 |
+| Binary Trees | 0 | 0 | 0 | 0 | 0 |
+| Binary Search Trees | 0 | 0 | 0 | 0 | 0 |
+| Graphs | 0 | 0 | 0 | 0 | 0 |
+| Dynamic Programming | 0 | 0 | 0 | 0 | 0 |
+| Tries | 0 | 0 | 0 | 0 | 0 |
+| Strings | 0 | 0 | 0 | 0 | 0 |
+| Bit Manipulation | 0 | 0 | 0 | 0 | 0 |
+| Mathematics | 0 | 0 | 0 | 0 | 0 |
 
 > Topics come from `data/problems.json` (the canonical Striver SDE Sheet).
 
@@ -70,6 +71,7 @@ status of all 179 problems (Day · Topic · Difficulty · who solved it).
 - **Dibya** — [SDESheetChallengeDIBYA](https://github.com/DSA-HOGA-ORG/SDESheetChallengeDIBYA)
 - **Saksham** — [SDESheetChallengeSaksham](https://github.com/DSA-HOGA-ORG/SDESheetChallengeSaksham)
 - **Pratik** — [SDESheetChallengePratik](https://github.com/DSA-HOGA-ORG/SDESheetChallengePratik)
+- **Smruti Ranjan** — [SDESheetChallengeSMRUTI](https://github.com/DSA-HOGA-ORG/SDESheetChallengeSMRUTI)
 
 ## How it updates
 
@@ -88,4 +90,4 @@ _None._
 
 ---
 
-_Generated at 2026-09-25T19:34:09Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-09-25T19:40:52Z (UTC) by `scripts/generate_dashboard.py`._

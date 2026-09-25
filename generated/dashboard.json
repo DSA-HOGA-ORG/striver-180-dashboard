@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:34:09Z",
+  "generated_at": "2026-09-25T19:40:52Z",
   "org": "DSA-HOGA-ORG",
   "sheet_total": 179,
   "total": 179,
@@ -33,42 +33,51 @@
       "id": "dibya",
       "display": "Dibya",
       "repo": "SDESheetChallengeDIBYA",
-      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeDIBYA",
-      "github": "dibyadarshandash8934-dev",
-      "solved": 1,
-      "solved_ids": [
-        1
-      ],
-      "topics": {
-        "Arrays": 1
-      },
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
       "unmapped": [],
-      "note": null
+      "note": "repo not cloned"
     },
     {
       "id": "saksham",
       "display": "Saksham",
       "repo": "SDESheetChallengeSaksham",
-      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeSaksham",
-      "github": "Sakshamraj777",
       "solved": 0,
       "solved_ids": [],
       "topics": {},
       "unmapped": [],
-      "note": null
+      "note": "repo not cloned"
     },
     {
       "id": "pratik",
       "display": "Pratik",
       "repo": "SDESheetChallengePratik",
-      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengePratik",
-      "github": "pratik-goel27",
-      "solved": 1,
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
+      "unmapped": [],
+      "note": "repo not cloned"
+    },
+    {
+      "id": "smruti",
+      "display": "Smruti Ranjan",
+      "repo": "SDESheetChallengeSMRUTI",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeSMRUTI",
+      "github": "smruti-ranjan-01",
+      "solved": 8,
       "solved_ids": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
       ],
       "topics": {
-        "Arrays": 1
+        "Arrays": 8
       },
       "unmapped": [],
       "note": null
@@ -82,7 +91,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
       "member": "Shaunak",
@@ -91,7 +100,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Easy",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
       "member": "Shaunak",
@@ -100,7 +109,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
       "member": "Shaunak",
@@ -109,7 +118,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
       "member": "Shaunak",
@@ -118,7 +127,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
       "member": "Shaunak",
@@ -127,7 +136,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
       "member": "Shaunak",
@@ -136,7 +145,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
       "member": "Shaunak",
@@ -145,7 +154,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
       "member": "Shaunak",
@@ -154,7 +163,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
       "member": "Shaunak",
@@ -163,25 +172,79 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Hard",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
-      "member": "Dibya",
+      "member": "Smruti Ranjan",
       "pid": 1,
       "problem": "Majority Element-I",
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
     },
     {
-      "member": "Pratik",
-      "pid": 1,
-      "problem": "Majority Element-I",
+      "member": "Smruti Ranjan",
+      "pid": 2,
+      "problem": "Kadane's Algorithm",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "when": "2026-09-25T19:40:52Z"
+    },
+    {
+      "member": "Smruti Ranjan",
+      "pid": 3,
+      "problem": "Majority Element-II",
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-25T19:34:09Z"
+      "when": "2026-09-25T19:40:52Z"
+    },
+    {
+      "member": "Smruti Ranjan",
+      "pid": 4,
+      "problem": "Maximum Product Subarray in an Array",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-25T19:40:52Z"
+    },
+    {
+      "member": "Smruti Ranjan",
+      "pid": 5,
+      "problem": "Sort an array of 0's 1's and 2's",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-25T19:40:52Z"
+    },
+    {
+      "member": "Smruti Ranjan",
+      "pid": 6,
+      "problem": "3 Sum",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-25T19:40:52Z"
+    },
+    {
+      "member": "Smruti Ranjan",
+      "pid": 7,
+      "problem": "Next Permutation",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-25T19:40:52Z"
+    },
+    {
+      "member": "Smruti Ranjan",
+      "pid": 8,
+      "problem": "4 Sum",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-25T19:40:52Z"
     }
   ],
   "topic_order": [
@@ -233,42 +296,51 @@
       "id": "dibya",
       "display": "Dibya",
       "repo": "SDESheetChallengeDIBYA",
-      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeDIBYA",
-      "github": "dibyadarshandash8934-dev",
-      "solved": 1,
-      "solved_ids": [
-        1
-      ],
-      "topics": {
-        "Arrays": 1
-      },
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
       "unmapped": [],
-      "note": null
+      "note": "repo not cloned"
     },
     "saksham": {
       "id": "saksham",
       "display": "Saksham",
       "repo": "SDESheetChallengeSaksham",
-      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeSaksham",
-      "github": "Sakshamraj777",
       "solved": 0,
       "solved_ids": [],
       "topics": {},
       "unmapped": [],
-      "note": null
+      "note": "repo not cloned"
     },
     "pratik": {
       "id": "pratik",
       "display": "Pratik",
       "repo": "SDESheetChallengePratik",
-      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengePratik",
-      "github": "pratik-goel27",
-      "solved": 1,
+      "solved": 0,
+      "solved_ids": [],
+      "topics": {},
+      "unmapped": [],
+      "note": "repo not cloned"
+    },
+    "smruti": {
+      "id": "smruti",
+      "display": "Smruti Ranjan",
+      "repo": "SDESheetChallengeSMRUTI",
+      "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallengeSMRUTI",
+      "github": "smruti-ranjan-01",
+      "solved": 8,
       "solved_ids": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
       ],
       "topics": {
-        "Arrays": 1
+        "Arrays": 8
       },
       "unmapped": [],
       "note": null

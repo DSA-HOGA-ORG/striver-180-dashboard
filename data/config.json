@@ -18,6 +18,14 @@
     {
       "name": "SDESheetChallengeSaksham",
       "member": "saksham"
+    },
+    {
+      "name": "SDESheetChallengePratik",
+      "member": "pratik"
+    },
+    {
+      "name": "SDESheetChallengeSMRUTI",
+      "member": "smruti"
     }
   ],
   "sources": ["main_py", "main_cpp", "solution_files", "daily_log"],
