@@ -6,7 +6,7 @@ Members: **Shaunak** — **Dibya** — **Saksham** — **Pratik** — **Smruti R
 
 | Day | # | Problem | Topic | Difficulty | Team | Shaunak | Dibya | Saksham | Pratik | Smruti Ranjan |
 |---|--|---|----|------|----|---|---|---|---|---|
-|  1 |  1 | Majority Element-I | Arrays | Medium | ✅ | ✅ | — | — | — | ✅ |
+|  1 |  1 | Majority Element-I | Arrays | Medium | ✅ | ✅ | ✅ | — | ✅ | ✅ |
 |  1 |  2 | Kadane's Algorithm | Arrays | Easy | ✅ | ✅ | — | — | — | ✅ |
 |  1 |  3 | Majority Element-II | Arrays | Medium | ✅ | ✅ | — | — | — | ✅ |
 |  1 |  4 | Maximum Product Subarray in an Array | Arrays | Medium | ✅ | ✅ | — | — | — | ✅ |
