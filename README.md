@@ -9,7 +9,7 @@ automatically from each member's repository every time new solutions land.
 
 ## Overall Progress
 
-**TEAM:** 10 / 716 completed-signals (1.4%)
+**TEAM:** 12 / 716 completed-signals (1.7%)
 
 ░░░░░░░░░░░░░░░░░░░░
 
@@ -19,7 +19,7 @@ automatically from each member's repository every time new solutions land.
 
 | Rank | Member | Solved | Remaining | Progress | Bar |
 |------|--------|--------|-----------|----------|-----|
-| 1 | Shaunak | 8/179 | 171 | 4.5% | █░░░░░░░░░░░░░░░░░░░ |
+| 1 | Shaunak | 10/179 | 169 | 5.6% | █░░░░░░░░░░░░░░░░░░░ |
 | 2 | Dibya | 1/179 | 178 | 0.6% | ░░░░░░░░░░░░░░░░░░░░ |
 | 3 | Pratik | 1/179 | 178 | 0.6% | ░░░░░░░░░░░░░░░░░░░░ |
 | 4 | Saksham | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
@@ -28,7 +28,7 @@ automatically from each member's repository every time new solutions land.
 
 | Topic | Shaunak | Dibya | Saksham | Pratik |
 |------|------|------|------|------|
-| Arrays | 8 | 1 | 0 | 1 |
+| Arrays | 10 | 1 | 0 | 1 |
 | Hashing | 0 | 0 | 0 | 0 |
 | Binary Search | 0 | 0 | 0 | 0 |
 | Sliding Window and Two Pointers | 0 | 0 | 0 | 0 |
@@ -88,4 +88,4 @@ _None._
 
 ---
 
-_Generated at 2026-09-25T17:23:10Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-09-25T19:34:09Z (UTC) by `scripts/generate_dashboard.py`._

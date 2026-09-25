@@ -2,7 +2,7 @@
 
 Members: **Shaunak** — **Dibya** — **Saksham** — **Pratik**. ✅ = solved by that member on their own repo.
 
-**Team:** 8 / 179 problems solved by at least one member.
+**Team:** 10 / 179 problems solved by at least one member.
 
 | Day | # | Problem | Topic | Difficulty | Team | Shaunak | Dibya | Saksham | Pratik |
 |---|--|---|----|------|----|---|---|---|---|
@@ -14,8 +14,8 @@ Members: **Shaunak** — **Dibya** — **Saksham** — **Pratik**. ✅ = solved 
 |  1 |  6 | 3 Sum | Arrays | Medium | ✅ | ✅ | — | — | — |
 |  1 |  7 | Next Permutation | Arrays | Medium | ✅ | ✅ | — | — | — |
 |  1 |  8 | 4 Sum | Arrays | Medium | ✅ | ✅ | — | — | — |
-|  1 |  9 | Merge two sorted arrays without extra space | Arrays | Medium | — | — | — | — | — |
-|  1 | 10 | Trapping Rainwater | Arrays | Hard | — | — | — | — | — |
+|  1 |  9 | Merge two sorted arrays without extra space | Arrays | Medium | ✅ | ✅ | — | — | — |
+|  1 | 10 | Trapping Rainwater | Arrays | Hard | ✅ | ✅ | — | — | — |
 |  1 | 11 | Count Inversions | Arrays | Medium | — | — | — | — | — |
 |  1 | 12 | Reverse Pairs | Arrays | Medium | — | — | — | — | — |
 |  2 |  1 | Two Sum | Hashing | Medium | — | — | — | — | — |
