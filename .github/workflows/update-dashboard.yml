@@ -33,7 +33,7 @@ jobs:
       - name: Clone member repos (public — no secrets needed)
         run: |
           mkdir -p repos
-          for repo in SDESheetChallenge SDESheetChallengeDIBYA SDESheetChallengeSaksham SDESheetChallengePratik SDESheetChallengeSMRUTI; do
+          for repo in SDESheetChallenge SDESheetChallengeDIBYA SDESheetChallengePratik SDESheetChallengeSMRUTI; do
             echo "== cloning $repo =="
             git clone --quiet --depth 1 "https://github.com/DSA-HOGA-ORG/${repo}.git" "repos/${repo}" \
               || echo "clone failed for ${repo} (skipping)"
