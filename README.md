@@ -9,9 +9,9 @@ automatically from each member's repository every time new solutions land.
 
 ## Overall Progress
 
-**TEAM:** 20 / 895 completed-signals (2.2%)
+**TEAM:** 23 / 895 completed-signals (2.6%)
 
-░░░░░░░░░░░░░░░░░░░░
+█░░░░░░░░░░░░░░░░░░░
 
 > Each member individually attempts all 179 problems on the sheet.
 
@@ -19,7 +19,7 @@ automatically from each member's repository every time new solutions land.
 
 | Rank | Member | Solved | Remaining | Progress | Bar |
 |------|--------|--------|-----------|----------|-----|
-| 1 | Shaunak | 11/179 | 168 | 6.1% | █░░░░░░░░░░░░░░░░░░░ |
+| 1 | Shaunak | 14/179 | 165 | 7.8% | ██░░░░░░░░░░░░░░░░░░ |
 | 2 | Smruti Ranjan | 8/179 | 171 | 4.5% | █░░░░░░░░░░░░░░░░░░░ |
 | 3 | Pratik | 1/179 | 178 | 0.6% | ░░░░░░░░░░░░░░░░░░░░ |
 | 4 | Dibya | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
@@ -29,8 +29,8 @@ automatically from each member's repository every time new solutions land.
 
 | Topic | Shaunak | Dibya | Saksham | Pratik | Smruti Ranjan |
 |------|------|------|------|------|------|
-| Arrays | 11 | 0 | 0 | 1 | 8 |
-| Hashing | 0 | 0 | 0 | 0 | 0 |
+| Arrays | 12 | 0 | 0 | 1 | 8 |
+| Hashing | 2 | 0 | 0 | 0 | 0 |
 | Binary Search | 0 | 0 | 0 | 0 | 0 |
 | Sliding Window and Two Pointers | 0 | 0 | 0 | 0 | 0 |
 | Recursion and Backtracking | 0 | 0 | 0 | 0 | 0 |
@@ -90,4 +90,4 @@ _None._
 
 ---
 
-_Generated at 2026-09-26T16:33:02Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-09-26T17:05:38Z (UTC) by `scripts/generate_dashboard.py`._

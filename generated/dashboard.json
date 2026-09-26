@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T16:33:02Z",
+  "generated_at": "2026-09-26T17:05:38Z",
   "org": "DSA-HOGA-ORG",
   "sheet_total": 179,
   "total": 179,
@@ -10,7 +10,7 @@
       "repo": "SDESheetChallenge",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
       "github": "ShaunakMishra25",
-      "solved": 11,
+      "solved": 14,
       "solved_ids": [
         1,
         2,
@@ -22,10 +22,14 @@
         8,
         9,
         10,
-        11
+        11,
+        12,
+        13,
+        14
       ],
       "topics": {
-        "Arrays": 11
+        "Arrays": 12,
+        "Hashing": 2
       },
       "unmapped": [],
       "note": null
@@ -102,7 +106,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Shaunak",
@@ -111,7 +115,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Easy",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Shaunak",
@@ -120,7 +124,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Shaunak",
@@ -129,7 +133,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Shaunak",
@@ -138,7 +142,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Shaunak",
@@ -147,7 +151,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Shaunak",
@@ -156,7 +160,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Shaunak",
@@ -165,7 +169,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Shaunak",
@@ -174,7 +178,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Shaunak",
@@ -183,7 +187,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Hard",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Shaunak",
@@ -192,7 +196,34 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
+    },
+    {
+      "member": "Shaunak",
+      "pid": 12,
+      "problem": "Reverse Pairs",
+      "day": 1,
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "when": "2026-09-26T17:05:38Z"
+    },
+    {
+      "member": "Shaunak",
+      "pid": 13,
+      "problem": "Two Sum",
+      "day": 2,
+      "topic": "Hashing",
+      "difficulty": "Medium",
+      "when": "2026-09-26T17:05:38Z"
+    },
+    {
+      "member": "Shaunak",
+      "pid": 14,
+      "problem": "Longest Consecutive Sequence in an Array",
+      "day": 2,
+      "topic": "Hashing",
+      "difficulty": "Medium",
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Pratik",
@@ -201,7 +232,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -210,7 +241,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -219,7 +250,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Easy",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -228,7 +259,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -237,7 +268,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -246,7 +277,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -255,7 +286,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -264,7 +295,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -273,7 +304,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-26T16:33:02Z"
+      "when": "2026-09-26T17:05:38Z"
     }
   ],
   "topic_order": [
@@ -302,7 +333,7 @@
       "repo": "SDESheetChallenge",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
       "github": "ShaunakMishra25",
-      "solved": 11,
+      "solved": 14,
       "solved_ids": [
         1,
         2,
@@ -314,10 +345,14 @@
         8,
         9,
         10,
-        11
+        11,
+        12,
+        13,
+        14
       ],
       "topics": {
-        "Arrays": 11
+        "Arrays": 12,
+        "Hashing": 2
       },
       "unmapped": [],
       "note": null
