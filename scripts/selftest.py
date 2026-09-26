@@ -36,6 +36,7 @@ KNOWN_PROBLEMS = {
     "3-sum": ("Arrays.TwoPointers", "ThreeSum", "threeSum"),
     "merge-sorted-array": ("Arrays.TwoPointers", "MergeSortedArray", "merge"),
     "reverse-pairs": ("Arrays.DivideAndConquer", "ReversePairs", "reversePairs"),
+    "count-inversions": ("Arrays.DivideAndConquer", "CountInversion", "inversionCount"),
     "kth-largest-element-in-an-array": ("Heaps.Heap", "KthLargestElementInArray", "findKthLargest"),
     "kth-largest-element-in-an-unsorted-array": ("Heaps.Heap", "KthLargestUnsorted", "findKthLargest"),
     "median-of-two-sorted-arrays": ("BinarySearch.BinarySearch", "MedianTwoSorted", "findMedianSortedArrays"),
@@ -75,24 +76,30 @@ DAILY_LOG = '''\
 ### Problem: Longest Common Subsequence
 - **Link:** [LeetCode](https://leetcode.com/problems/longest-common-subsequence/)
 - **Status:** Solved
+
+### Problem: Find The Duplicate Number
+- **Link:** [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/)
+- **Status:** ☑ Need Review
 '''
 
 FILES = {
-    "Arrays/LinearScan/MajorityElement.py": "class Solution:\n    def majorityElement(self, n): pass\n",
-    "Arrays/LinearScan/Kadane.py": "class Solution:\n    def maxSubArray(self, n): pass\n",
-    "Arrays/LinearScan/SortColors.py": "class Solution:\n    def sortColors(self, n): pass\n",
-    "Arrays/LinearScan/TwoSum.py": "class Solution:\n    def twoSum(self, n, t): pass\n",
-    "Arrays/LinearScan/ThreeSum.cpp": "namespace three_sum { class Solution {}; }",
-    "Arrays/LinearScan/NextPermutation.cpp": "namespace next_permutation { class Solution {}; }",
-    "Arrays/LinearScan/MergeSortedArray.py": "class Solution:\n    def merge(self, n, m): pass\n",
-    "Arrays/LinearScan/LCS.py": "class Solution:\n    def longestCommonSubsequence(self, a, b): pass\n",
-    "Arrays/DivideAndConquer/ReversePairs.cpp": "namespace reverse_pairs { class Solution {}; }",
-    "Arrays/Hashing/LongestConsecutive.py": "class Solution:\n    def longestConsecutive(self, n): pass\n",
-    "BinarySearch/SearchAnswer/BookAllocation.cpp": "namespace book_allocation { class Solution {}; }",
-    "Heaps/Heap/KthLargest.cpp": "namespace kth_largest { class Solution {}; }",
-    "Heaps/Heap/MedianFinder.py": "class MedianFinder:\n    def addNum(self, n): pass\n",
-    "Design/LRUCache.cpp": "namespace lru_cache { class LRUCache {}; }",
-    "Graph/BFS/RottenOranges.cpp": "namespace rotten_oranges { class Solution {}; }",
+    "Arrays/LinearScan/MajorityElement.py": "class Solution:\n    def majorityElement(self, n):\n        return sorted(n)[len(n) // 2]\n",
+    "Arrays/LinearScan/Kadane.py": "class Solution:\n    def maxSubArray(self, n):\n        cur = best = n[0]\n        for x in n[1:]:\n            cur = max(x, cur + x)\n            best = max(best, cur)\n        return best\n",
+    "Arrays/LinearScan/SortColors.py": "class Solution:\n    def sortColors(self, n):\n        n.sort()\n",
+    "Arrays/LinearScan/TwoSum.py": "class Solution:\n    def twoSum(self, n, t):\n        s = {}\n        for i, x in enumerate(n):\n            if t - x in s:\n                return [s[t - x], i]\n            s[x] = i\n",
+    "Arrays/LinearScan/ThreeSum.cpp": "namespace three_sum {\nclass Solution {\npublic:\n    vector<vector<int>> threeSum(vector<int>& nums) {\n        sort(nums.begin(), nums.end());\n        return {{}};\n    }\n};\n}\n",
+    "Arrays/LinearScan/NextPermutation.cpp": "namespace next_permutation {\nclass Solution {\npublic:\n    void nextPermutation(vector<int>& nums) {\n        nums.push_back(0);\n    }\n};\n}\n",
+    "Arrays/LinearScan/MergeSortedArray.py": "class Solution:\n    def merge(self, n, m, k, b):\n        n[k:] = sorted(n[:k] + b[:m])\n",
+    "Arrays/LinearScan/LCS.py": "class Solution:\n    def longestCommonSubsequence(self, a, b):\n        dp = [0] * (len(b) + 1)\n        for c in a:\n            prev = dp[:]\n            for j, d in enumerate(b, 1):\n                dp[j] = prev[j - 1] + 1 if c == d else max(dp[j - 1], prev[j])\n        return dp[-1]\n",
+    "Arrays/DivideAndConquer/ReversePairs.cpp": "namespace reverse_pairs {\nclass Solution {\npublic:\n    int reversePairs(vector<int>& nums) {\n        return nums.size();\n    }\n};\n}\n",
+    # stub: registered slug + header-only file must NOT count as done
+    "Arrays/DivideAndConquer/CountInversion.cpp": "namespace count_inversions {\nclass Solution {\npublic:\n    long long inversionCount(vector<int>& arr) {\n    }\n};\n}\n",
+    "Arrays/Hashing/LongestConsecutive.py": "class Solution:\n    def longestConsecutive(self, n):\n        return len(set(n))\n",
+    "BinarySearch/SearchAnswer/BookAllocation.cpp": "namespace book_allocation {\nclass Solution {\npublic:\n    int minimumPages(vector<int>& b, int m) {\n        return b.size();\n    }\n};\n}\n",
+    "Heaps/Heap/KthLargest.cpp": "namespace kth_largest {\nclass Solution {\npublic:\n    int findKthLargest(vector<int>& nums, int k) {\n        return nums[k];\n    }\n};\n}\n",
+    "Heaps/Heap/MedianFinder.py": "class MedianFinder:\n    def __init__(self):\n        self.a = []\n    def addNum(self, n):\n        self.a.append(n)\n    def findMedian(self):\n        return 0\n",
+    "Design/LRUCache.cpp": "namespace lru_cache {\nclass LRUCache {\npublic:\n    LRUCache(int cap) {}\n    int get(int key) { return 0; }\n    void put(int key, int value) {}\n};\n}\n",
+    "Graph/BFS/RottenOranges.cpp": "namespace rotten_oranges {\nclass Solution {\npublic:\n    int orangesRotting(vector<vector<int>>& g) {\n        return g.size();\n    }\n};\n}\n",
     "tests/test_dummy.py": "def test_x(): pass\n",
     "main.py": MAIN_PY,
     "main.cpp": MAIN_CPP,

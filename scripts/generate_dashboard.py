@@ -231,11 +231,22 @@ def parse_problem_slugs_main_cpp(text: str) -> list[str]:
 
 def parse_daily_log(text: str) -> list[dict]:
     entries = []
-    for m in re.finditer(r"###\s*Problem:\s*(.+?)\s*$", text, re.M):
+    # split into per-problem blocks so each carries its own status line
+    blocks = re.split(r"\n(?=###\s*Problem:)", text)
+    for block in blocks:
+        m = re.match(r"###\s*Problem:\s*(.+?)\s*$", block, re.M)
+        if not m:
+            continue
         name = m.group(1).strip()
+        status_m = re.search(r"\*\*Status:\*\*\s*([^\n]*)", block)
+        st = status_m.group(1) if status_m else ""
+        solved = ("Solved" in st and "Unsolved" not in st
+                  and "Need Review" not in st)
+        if not solved:
+            continue  # Unsolved / Need Review is not "done"
         entries.append({"name": name, "link": _lc_slug_from_line(name)})
-    for m in re.finditer(r"leetcode\.com/problems/([a-zA-Z0-9-]+)/?[\"'\s)]", text):
-        entries.append({"name": "", "link": m.group(1)})
+        for lm in re.finditer(r"leetcode\.com/problems/([a-zA-Z0-9-]+)/?[\"'\s)]", block):
+            entries.append({"name": "", "link": lm.group(1)})
     return entries
 
 
@@ -286,6 +297,58 @@ def extract_file_slugs(path: Path) -> list[str]:
     return [c for c in out if c]
 
 
+def is_stub(path: Path) -> bool:
+    """A clean (non-stub) file counts as a real solution.
+
+    Empty bodies, `pass`-only Python methods and bare class/namespace
+    declarations are treated as stubs so that merely pushing a header
+    does not mark a problem as done.
+    """
+    try:
+        text = path.read_text(errors="ignore")
+    except OSError:
+        text = ""
+    if not text.strip():
+        return True
+    # strip comments
+    text = re.sub(r"/\*.*?\*/", "", text, flags=re.S)   # block comments (C-style)
+    text = re.sub(r"//[^\n]*", "", text)                 # line comments (C-style)
+    text = re.sub(r"#[^\n]*", "", text)                  # python comments / cpp directives
+    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+
+    if path.suffix.lower() in (".py",):
+        # a python solution must contain a statement that is not pass/.../docstring
+        real = [
+            ln for ln in lines
+            if ln and ln not in ("pass", "...") and not ln.startswith(('"""', "'''"))
+            and not ln.startswith(("def ", "class "))
+        ]
+        return not real
+
+    # C-family: stub iff every function-like body is empty.
+    # Find `) {` (method signature) then balance braces; any non-empty body == code.
+    pos = 0
+    n = len(text)
+    while True:
+        m = re.search(r"\)\s*\{", text[pos:])
+        if not m:
+            break
+        start = pos + m.end() - 1
+        depth = 1
+        j = start + 1
+        while j < n and depth:
+            if text[j] == "{":
+                depth += 1
+            elif text[j] == "}":
+                depth -= 1
+            j += 1
+        body = text[start + 1:j - 1] if depth == 0 else text[start + 1:]
+        if body.strip():
+            return False  # at least one implemented method
+        pos = j
+    return True
+
+
 # ------------------------------------------------------------- solved section
 
 def solve_member(repo_root: Path, index: SheetIndex) -> dict:
@@ -322,6 +385,24 @@ def solve_member(repo_root: Path, index: SheetIndex) -> dict:
         for s in extract_file_slugs(f):
             signals.append(("solution_file", s, None, None))
 
+    # every pid that is already matched to a stubbed file AND has no other
+    # real source must be dropped — pushing only a header is not "done"
+    stub_pids: set[int] = set()
+    real_file_pids: set[int] = set()
+    for f in solution_files(repo_root):
+        if is_stub(f):
+            for s in extract_file_slugs(f):
+                res = index.match(s)
+                if res is None:
+                    continue
+                stub_pids.add(res[0])
+        else:
+            for s in extract_file_slugs(f):
+                res = index.match(s)
+                if res is None:
+                    continue
+                real_file_pids.add(res[0])
+
     prev_sources = {}
     for sig, raw, conf, exact in signals:
         res = index.match(raw)
@@ -332,8 +413,15 @@ def solve_member(repo_root: Path, index: SheetIndex) -> dict:
         pid, got_conf, got_exact = res
         if sig == "solution_file" and not got_exact and got_conf < 0.75:
             continue  # fuzzy file matches need strong confidence
+        if sig in ("main_py", "main_cpp") and pid in stub_pids and pid not in real_file_pids:
+            # registered slug backed only by a stubbed file — not a real solve
+            continue
         record(pid, sig, raw)
         prev_sources.setdefault(pid, sig)
+
+    # solution_file signals that only came from stub files are not evidence
+    for pid in [p for p in solved if p in stub_pids and p not in real_file_pids]:
+        del solved[pid]
 
     for pid, info in solved.items():
         info["sources"] = sorted(info["sources"])
