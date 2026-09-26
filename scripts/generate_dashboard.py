@@ -519,7 +519,7 @@ def generate_readme(dash: dict, cfg: dict, members: list[dict], generated_at: st
 
     return f"""# 🚀 {label} — Team Dashboard
 
-Progress of all three members through the Striver SDE Sheet, updated
+Progress of all tracked members through the Striver SDE Sheet, updated
 automatically from each member's repository every time new solutions land.
 
 > **Live tracker:** the full per-problem board is

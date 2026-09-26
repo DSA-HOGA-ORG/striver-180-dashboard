@@ -1,6 +1,6 @@
 # 🚀 Striver 180 — Team Dashboard
 
-Progress of all three members through the Striver SDE Sheet, updated
+Progress of all tracked members through the Striver SDE Sheet, updated
 automatically from each member's repository every time new solutions land.
 
 > **Live tracker:** the full per-problem board is
@@ -90,4 +90,4 @@ _None._
 
 ---
 
-_Generated at 2026-09-26T11:11:06Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-09-26T11:12:13Z (UTC) by `scripts/generate_dashboard.py`._
