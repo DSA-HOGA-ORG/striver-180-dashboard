@@ -30,6 +30,7 @@ Runner. KNOWN_PROBLEMS lives here.
 # "slug": ("topic.subtopic", "module", "method")
 KNOWN_PROBLEMS = {
     "majority-element": ("Arrays.LinearScan", "MajorityElementI", "majorityElement"),
+    "majority-element-ii": ("Arrays.LinearScan", "MajorityElementII", "majorityElement"),
     "next-permutation": ("Arrays.LinearScan", "NextPermutation", "nextPermutation"),
     "maximum-subarray": ("Arrays.LinearScan", "Kadane", "maxSubArray"),
     "two-sum": ("Arrays.TwoPointers", "TwoSum", "twoSum"),
@@ -84,6 +85,7 @@ DAILY_LOG = '''\
 
 FILES = {
     "Arrays/LinearScan/MajorityElement.py": "class Solution:\n    def majorityElement(self, n):\n        return sorted(n)[len(n) // 2]\n",
+    "Arrays/LinearScan/MajorityElementII.py": "class Solution:\n    def majorityElement(self, nums: list[int]) -> list[int]:\n        raise NotImplementedError\n",
     "Arrays/LinearScan/Kadane.py": "class Solution:\n    def maxSubArray(self, n):\n        cur = best = n[0]\n        for x in n[1:]:\n            cur = max(x, cur + x)\n            best = max(best, cur)\n        return best\n",
     "Arrays/LinearScan/SortColors.py": "class Solution:\n    def sortColors(self, n):\n        n.sort()\n",
     "Arrays/LinearScan/TwoSum.py": "class Solution:\n    def twoSum(self, n, t):\n        s = {}\n        for i, x in enumerate(n):\n            if t - x in s:\n                return [s[t - x], i]\n            s[x] = i\n",

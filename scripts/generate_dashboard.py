@@ -317,11 +317,15 @@ def is_stub(path: Path) -> bool:
     lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
 
     if path.suffix.lower() in (".py",):
-        # a python solution must contain a statement that is not pass/.../docstring
+        # a python solution must contain a real statement outside of
+        # pass/.../raise NotImplementedError placeholders
         real = [
             ln for ln in lines
-            if ln and ln not in ("pass", "...") and not ln.startswith(('"""', "'''"))
-            and not ln.startswith(("def ", "class "))
+            if ln
+            and not ln.startswith(("@", "def ", "class "))
+            and ln not in ("pass", "...")
+            and not ln.startswith(('"""', "'''"))
+            and not re.match(r"raise\s+NotImplementedError\b", ln)
         ]
         return not real
 
