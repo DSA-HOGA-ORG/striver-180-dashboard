@@ -2,7 +2,7 @@
 
 Members: **Shaunak** — **Dibya** — **Saksham** — **Pratik** — **Smruti Ranjan**. ✅ = solved by that member on their own repo.
 
-**Team:** 14 / 179 problems solved by at least one member.
+**Team:** 15 / 179 problems solved by at least one member.
 
 | Day | # | Problem | Topic | Difficulty | Team | Shaunak | Dibya | Saksham | Pratik | Smruti Ranjan |
 |---|--|---|----|------|----|---|---|---|---|---|
@@ -21,7 +21,7 @@ Members: **Shaunak** — **Dibya** — **Saksham** — **Pratik** — **Smruti R
 |  2 |  1 | Two Sum | Hashing | Medium | ✅ | ✅ | — | — | — | — |
 |  2 |  2 | Longest Consecutive Sequence in an Array | Hashing | Medium | ✅ | ✅ | — | — | — | — |
 |  2 |  3 | Longest subarray with sum K | Hashing | Medium | — | — | — | — | — | — |
-|  2 |  4 | Count subarrays with given sum | Hashing | Medium | — | — | — | — | — | — |
+|  2 |  4 | Count subarrays with given sum | Hashing | Medium | ✅ | ✅ | — | — | — | — |
 |  2 |  5 | Count subarrays with given xor K | Hashing | Medium | — | — | — | — | — | — |
 |  3 |  1 | Find peak element | Binary Search | Medium | — | — | — | — | — | — |
 |  3 |  2 | Find minimum in Rotated Sorted Array | Binary Search | Medium | — | — | — | — | — | — |

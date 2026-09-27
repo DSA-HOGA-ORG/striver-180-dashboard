@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T13:24:10Z",
+  "generated_at": "2026-09-27T15:52:44Z",
   "org": "DSA-HOGA-ORG",
   "sheet_total": 179,
   "total": 179,
@@ -10,7 +10,7 @@
       "repo": "SDESheetChallenge",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
       "github": "ShaunakMishra25",
-      "solved": 14,
+      "solved": 15,
       "solved_ids": [
         1,
         2,
@@ -25,11 +25,12 @@
         11,
         12,
         13,
-        14
+        14,
+        16
       ],
       "topics": {
         "Arrays": 12,
-        "Hashing": 2
+        "Hashing": 3
       },
       "unmapped": [],
       "note": null
@@ -106,7 +107,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -115,7 +116,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Easy",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -124,7 +125,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -133,7 +134,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -142,7 +143,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -151,7 +152,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -160,7 +161,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -169,7 +170,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -178,7 +179,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -187,7 +188,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Hard",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -196,7 +197,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -205,7 +206,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -214,7 +215,7 @@
       "day": 2,
       "topic": "Hashing",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Shaunak",
@@ -223,7 +224,16 @@
       "day": 2,
       "topic": "Hashing",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
+    },
+    {
+      "member": "Shaunak",
+      "pid": 16,
+      "problem": "Count subarrays with given sum",
+      "day": 2,
+      "topic": "Hashing",
+      "difficulty": "Medium",
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Pratik",
@@ -232,7 +242,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -241,7 +251,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -250,7 +260,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Easy",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -259,7 +269,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -268,7 +278,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -277,7 +287,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -286,7 +296,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -295,7 +305,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -304,7 +314,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-09-27T13:24:10Z"
+      "when": "2026-09-27T15:52:44Z"
     }
   ],
   "topic_order": [
@@ -333,7 +343,7 @@
       "repo": "SDESheetChallenge",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
       "github": "ShaunakMishra25",
-      "solved": 14,
+      "solved": 15,
       "solved_ids": [
         1,
         2,
@@ -348,11 +358,12 @@
         11,
         12,
         13,
-        14
+        14,
+        16
       ],
       "topics": {
         "Arrays": 12,
-        "Hashing": 2
+        "Hashing": 3
       },
       "unmapped": [],
       "note": null
