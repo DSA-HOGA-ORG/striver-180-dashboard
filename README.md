@@ -9,7 +9,7 @@ automatically from each member's repository every time new solutions land.
 
 ## Overall Progress
 
-**TEAM:** 24 / 895 completed-signals (2.7%)
+**TEAM:** 25 / 895 completed-signals (2.8%)
 
 █░░░░░░░░░░░░░░░░░░░
 
@@ -19,7 +19,7 @@ automatically from each member's repository every time new solutions land.
 
 | Rank | Member | Solved | Remaining | Progress | Bar |
 |------|--------|--------|-----------|----------|-----|
-| 1 | Shaunak | 15/179 | 164 | 8.4% | ██░░░░░░░░░░░░░░░░░░ |
+| 1 | Shaunak | 16/179 | 163 | 8.9% | ██░░░░░░░░░░░░░░░░░░ |
 | 2 | Smruti Ranjan | 8/179 | 171 | 4.5% | █░░░░░░░░░░░░░░░░░░░ |
 | 3 | Pratik | 1/179 | 178 | 0.6% | ░░░░░░░░░░░░░░░░░░░░ |
 | 4 | Dibya | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
@@ -30,7 +30,7 @@ automatically from each member's repository every time new solutions land.
 | Topic | Shaunak | Dibya | Saksham | Pratik | Smruti Ranjan |
 |------|------|------|------|------|------|
 | Arrays | 12 | 0 | 0 | 1 | 8 |
-| Hashing | 3 | 0 | 0 | 0 | 0 |
+| Hashing | 4 | 0 | 0 | 0 | 0 |
 | Binary Search | 0 | 0 | 0 | 0 | 0 |
 | Sliding Window and Two Pointers | 0 | 0 | 0 | 0 | 0 |
 | Recursion and Backtracking | 0 | 0 | 0 | 0 | 0 |
@@ -90,4 +90,4 @@ _None._
 
 ---
 
-_Generated at 2026-09-28T23:24:29Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-09-29T02:59:31Z (UTC) by `scripts/generate_dashboard.py`._
