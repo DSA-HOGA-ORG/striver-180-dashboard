@@ -2,7 +2,7 @@
 
 Members: **Shaunak** — **Dibya** — **Saksham** — **Pratik** — **Smruti Ranjan**. ✅ = solved by that member on their own repo.
 
-**Team:** 20 / 179 problems solved by at least one member.
+**Team:** 21 / 179 problems solved by at least one member.
 
 | Day | # | Problem | Topic | Difficulty | Team | Shaunak | Dibya | Saksham | Pratik | Smruti Ranjan |
 |---|--|---|----|------|----|---|---|---|---|---|
@@ -27,7 +27,7 @@ Members: **Shaunak** — **Dibya** — **Saksham** — **Pratik** — **Smruti R
 |  3 |  2 | Find minimum in Rotated Sorted Array | Binary Search | Medium | ✅ | ✅ | — | — | — | — |
 |  3 |  3 | Search in rotated sorted array-II | Binary Search | Medium | ✅ | ✅ | — | — | — | — |
 |  3 |  4 | Single element in sorted array | Binary Search | Medium | ✅ | ✅ | — | — | — | — |
-|  3 |  5 | Search in 2D matrix - II | Binary Search | Medium | — | — | — | — | — | — |
+|  3 |  5 | Search in 2D matrix - II | Binary Search | Medium | ✅ | ✅ | — | — | — | — |
 |  3 |  6 | Find Peak Element - II | Binary Search | Medium | — | — | — | — | — | — |
 |  3 |  7 | Find Nth root of a number | Binary Search | Medium | — | — | — | — | — | — |
 |  3 |  8 | Koko eating bananas | Binary Search | Medium | — | — | — | — | — | — |
