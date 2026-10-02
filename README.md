@@ -9,7 +9,7 @@ automatically from each member's repository every time new solutions land.
 
 ## Overall Progress
 
-**TEAM:** 28 / 895 completed-signals (3.1%)
+**TEAM:** 29 / 895 completed-signals (3.2%)
 
 █░░░░░░░░░░░░░░░░░░░
 
@@ -19,7 +19,7 @@ automatically from each member's repository every time new solutions land.
 
 | Rank | Member | Solved | Remaining | Progress | Bar |
 |------|--------|--------|-----------|----------|-----|
-| 1 | Shaunak | 19/179 | 160 | 10.6% | ██░░░░░░░░░░░░░░░░░░ |
+| 1 | Shaunak | 20/179 | 159 | 11.2% | ██░░░░░░░░░░░░░░░░░░ |
 | 2 | Smruti Ranjan | 8/179 | 171 | 4.5% | █░░░░░░░░░░░░░░░░░░░ |
 | 3 | Pratik | 1/179 | 178 | 0.6% | ░░░░░░░░░░░░░░░░░░░░ |
 | 4 | Dibya | 0/179 | 179 | 0.0% | ░░░░░░░░░░░░░░░░░░░░ |
@@ -31,7 +31,7 @@ automatically from each member's repository every time new solutions land.
 |------|------|------|------|------|------|
 | Arrays | 12 | 0 | 0 | 1 | 8 |
 | Hashing | 4 | 0 | 0 | 0 | 0 |
-| Binary Search | 3 | 0 | 0 | 0 | 0 |
+| Binary Search | 4 | 0 | 0 | 0 | 0 |
 | Sliding Window and Two Pointers | 0 | 0 | 0 | 0 | 0 |
 | Recursion and Backtracking | 0 | 0 | 0 | 0 | 0 |
 | Linked List | 0 | 0 | 0 | 0 | 0 |
@@ -90,4 +90,4 @@ status of all 179 problems (Day · Topic · Difficulty · who solved it).
 
 ---
 
-_Generated at 2026-10-02T05:55:56Z (UTC) by `scripts/generate_dashboard.py`._
+_Generated at 2026-10-02T11:45:31Z (UTC) by `scripts/generate_dashboard.py`._

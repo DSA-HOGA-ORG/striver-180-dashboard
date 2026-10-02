@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T05:55:56Z",
+  "generated_at": "2026-10-02T11:45:31Z",
   "org": "DSA-HOGA-ORG",
   "sheet_total": 179,
   "total": 179,
@@ -10,7 +10,7 @@
       "repo": "SDESheetChallenge",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
       "github": "ShaunakMishra25",
-      "solved": 19,
+      "solved": 20,
       "solved_ids": [
         1,
         2,
@@ -30,12 +30,13 @@
         16,
         18,
         19,
-        20
+        20,
+        21
       ],
       "topics": {
         "Arrays": 12,
         "Hashing": 4,
-        "Binary Search": 3
+        "Binary Search": 4
       },
       "unmapped": [
         "check-if-there-is-a-valid-parentheses-string-path"
@@ -114,7 +115,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -123,7 +124,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Easy",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -132,7 +133,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -141,7 +142,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -150,7 +151,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -159,7 +160,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -168,7 +169,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -177,7 +178,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -186,7 +187,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -195,7 +196,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Hard",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -204,7 +205,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -213,7 +214,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -222,7 +223,7 @@
       "day": 2,
       "topic": "Hashing",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -231,7 +232,7 @@
       "day": 2,
       "topic": "Hashing",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -240,7 +241,7 @@
       "day": 2,
       "topic": "Hashing",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -249,7 +250,7 @@
       "day": 2,
       "topic": "Hashing",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -258,7 +259,7 @@
       "day": 3,
       "topic": "Binary Search",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -267,7 +268,7 @@
       "day": 3,
       "topic": "Binary Search",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Shaunak",
@@ -276,7 +277,16 @@
       "day": 3,
       "topic": "Binary Search",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
+    },
+    {
+      "member": "Shaunak",
+      "pid": 21,
+      "problem": "Single element in sorted array",
+      "day": 3,
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Pratik",
@@ -285,7 +295,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -294,7 +304,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -303,7 +313,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Easy",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -312,7 +322,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -321,7 +331,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -330,7 +340,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -339,7 +349,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -348,7 +358,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     },
     {
       "member": "Smruti Ranjan",
@@ -357,7 +367,7 @@
       "day": 1,
       "topic": "Arrays",
       "difficulty": "Medium",
-      "when": "2026-10-02T05:55:56Z"
+      "when": "2026-10-02T11:45:31Z"
     }
   ],
   "topic_order": [
@@ -386,7 +396,7 @@
       "repo": "SDESheetChallenge",
       "repo_url": "https://github.com/DSA-HOGA-ORG/SDESheetChallenge",
       "github": "ShaunakMishra25",
-      "solved": 19,
+      "solved": 20,
       "solved_ids": [
         1,
         2,
@@ -406,12 +416,13 @@
         16,
         18,
         19,
-        20
+        20,
+        21
       ],
       "topics": {
         "Arrays": 12,
         "Hashing": 4,
-        "Binary Search": 3
+        "Binary Search": 4
       },
       "unmapped": [
         "check-if-there-is-a-valid-parentheses-string-path"
